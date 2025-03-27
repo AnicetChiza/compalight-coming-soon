@@ -52,8 +52,6 @@ h6 {
 #Body
 ----------------------*/
 body{
-    /* width: 100%;
-    overflow: hidden; */
     font-size: 16px;
     font-family: 'NexaLight';
 }
@@ -147,12 +145,19 @@ body{
     .container{
         padding: 15px 15px;
     }
-
     .countdown div{
         width: 80px;
     }
 }
 
+@media screen and (max-width: 570px){
+    .coming-container .title h1{
+        font-size: 45px;
+    }
+    .coming-soon .title p{
+        font-size: 16px;
+    }
+}
 .construction{
     color: #fff;
     font-size: 13px;
@@ -170,7 +175,6 @@ body{
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    /* padding: 5px 5px; */
     background-color: #fff;
     -webkit-animation: pulse 2s infinite;
     animation: pulse514 1.5s infinite;
@@ -187,6 +191,35 @@ body{
         box-shadow: 0 0 0 0 #da674400;
     }
 }
+
+/* Media query */
+@media screen and (max-width: 1090px){
+    .coming-soon .title p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .coming-container{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .logo{
+        right: 40px;
+    }
+
+    .logo img{
+        width: 200px;
+        transform: skewX(-10deg);
+    }
+}
+@media screen and (max-width: 450px){
+    .coming-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 
 /*---------------------------/
 #Newsletter
@@ -271,6 +304,13 @@ body{
     }
 }
 
+@media screen and (max-width: 850px){
+    .newsletter{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
 @media screen and (max-width: 445px){
     .newsletter div form{
         display: flex;
@@ -279,6 +319,16 @@ body{
     }
 }
 
+@media screen and (max-width: 450px){
+    .newsletter{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*---------------------------/
+#Signature
+/-------------------------- */
 .compalight-sign {
     font-size: 13px;
     color: #a6a6a6;
@@ -288,6 +338,20 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     background-color: #f5f5f5a8;
+}
+
+@media screen and (max-width: 850px){
+    .compalight-sign{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .compalight-sign{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 .compalight-background{
