@@ -81,13 +81,13 @@ body{
 
 .logo{
     position: absolute;
-    top: 30px;
-    right: 70px;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .logo img{
     width: 300px;
-    transform: skewX(-10deg);
 }
 
 .coming-soon .title{
@@ -99,7 +99,6 @@ body{
 
 .coming-container .title h1{
     font-size: 55px;
-    font-style: italic;
     line-height: 70px;
     background: linear-gradient(to right, #438bb8, #F6C37C);
     -webkit-background-clip: text;
@@ -108,19 +107,16 @@ body{
 
 .coming-soon .title p{
     width: 70%;
-    line-height: 28px;
+    line-height: 25px;
     font-weight: 600;
     font-size: 18px;
-    font-style: italic;
 }
 
 .countdown{
     display: flex;
     margin-top: 30px;
-    font-style: italic;
     color: #fff;
     gap: 10px;
-    transform: skewX(-7deg);
     -webkit-column-gap: 10px;
 }
 
@@ -165,7 +161,6 @@ body{
     bottom: 40px;
     left: 70px;
     display: flex;
-    font-style: italic;
     font-weight: 600;
     align-items: center;
     gap: 5px;
@@ -211,7 +206,6 @@ body{
 
     .logo img{
         width: 200px;
-        transform: skewX(-10deg);
     }
 }
 @media screen and (max-width: 450px){
