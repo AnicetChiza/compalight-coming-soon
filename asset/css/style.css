@@ -67,6 +67,7 @@ body{
     position: relative;
     background: linear-gradient(to left, #12171db6 0%, #12171dd5 100%), url("../images/home.jpg") fixed no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .coming-container{
