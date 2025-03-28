@@ -64,7 +64,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
     background: linear-gradient(to left, #12171db6 0%, #12171dd5 100%), url("../images/home.jpg") fixed no-repeat;
     background-size: cover;
     background-position: center;
@@ -79,15 +79,12 @@ body{
     color: #fff;
 }
 
-.logo{
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .logo img{
     width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .coming-soon .title{
